@@ -4,3 +4,30 @@
     height: 100%;
     position: absolute;
 }
+
+.HomePage .test {
+    min-height: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.HomePage .test .container {
+    display: flex;
+}
+
+.HomePage .test .container .grid-item {
+    border: solid 1px;
+    flex: 1;
+}
+
+.HomePage .title {
+    text-align: center;;
+}
+
+.HomePage .container {
+    margin: 0 auto;
+    width: 50%;
+    height: 10rem;
+    border: 2px solid black;
+    padding:10px;
+}
