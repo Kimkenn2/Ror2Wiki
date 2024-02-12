@@ -7,3 +7,4 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+Item.create(name: "Armor-Piercing Rounds", rarity:"common", desc: "Deal an additional 20% damage (+20% per stack) to bosses.", dlc: 0)
