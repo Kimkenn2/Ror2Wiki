@@ -7,4 +7,22 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
-Item.create(name: "Armor-Piercing Rounds", rarity:"common", desc: "Deal an additional 20% damage (+20% per stack) to bosses.", dlc: 0)
+Item.create(
+    [{name: "Armor-Piercing Rounds", 
+    rarity:"common", 
+    desc: "Deal an additional 20% damage (+20% per stack) to bosses.", 
+    dlc: 0
+            },
+    {
+        name: "Backup Magazine",
+        rarity:"common",
+        desc:"Add +1 (+1 per stack) charge of your Secondary Skill",
+        dlc: 0
+    },
+    {
+        name: "Bison Steak",
+        rarity:"common",
+        desc:"Increases maximum health by 25 (+25 per stack).",
+        dlc: 0
+    }
+        ])
