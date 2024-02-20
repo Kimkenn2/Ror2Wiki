@@ -12,7 +12,7 @@ useEffect(() => {
     .then((itemData) => setItems(itemData))
 }, [])
 
-const renderedItems = (<Entity items= { items }/>)
+const renderedItems = items.map((items) => (<Entity item= { items }/>))
 
     return(
         <div class="ItemsPage">
